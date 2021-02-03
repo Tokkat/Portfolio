@@ -1,12 +1,87 @@
-hr {
-    border: none;
-    border-top: dotted;
-    color: black;
-    border-width: 10px;
-    width: 10%;
+/* Farbpalette: https://coolors.co/faa275-ff8c61-ce6a85-985277-5c374c */
+/* CSS HEX */
+/*
+--background: #5c374c;
+-- body color: #eef4ed 
+-- title color: #d6d4a0*/
+
+body {
+    color: #eef4ed;
+    font-family: 'Raleway', sans-serif;
+    background-color: #5c374c;
+    margin: 5% 15%;
 }
 
-h1, h2 {
-    color: #af0069;
+h2 {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 2.5rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+/* Title Section */
+
+.title {
+    color:#d6d4a0;
+}
+
+div.title {
+    width: 800px;
+    padding: 40px 30px 50px 30px;
+    margin: 0 auto;
+}
+
+h1.title {
+    font-size: 6rem;
+    font-weight: lighter;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    font-family: 'Dr Sugiyama', cursive;
+    margin: 0px;
+}
+
+h2.title {
+    margin: 20px 0 0 0;
+    font-size: 2.5rem;
+}
+
+/* Intro Section */
+
+#intro {
+    margin: 5% 0;
+}
+
+/* Skills Section */
+
+#skills {
+    text-align: center;
+    margin: 5% 0;
+}
+
+h3 {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.skill-cell {
+    padding: 5%;
+}
+
+/* Portfolio Section */
+
+#portfolio {
+    margin: 5% 0;
+}
+
+.portfolio-item {
+    padding: 0 15%;
+}
+
+#social-media{
+    clear: both;
     text-align: center;
 }
